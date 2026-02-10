@@ -1,4 +1,4 @@
-You can find links to all ungraded labs, assignments, and project deliverables below. We will work on Live Labs during our weekly masterclass sessions. 
+You can find the links to all ungraded labs, assignments, and project deliverables below. We will work on Live Labs during our weekly masterclass sessions. 
 The project deliverables will be graded.
 
 **Week 1**
