@@ -6,7 +6,7 @@ echo "Starting secure environment setup (Generating config.yaml)..."
 # --- CONFIGURATION VARIABLES ---
 CONFIG_DIR="$HOME/.continue"
 CONFIG_FILE="$CONFIG_DIR/config.yaml"
-API_KEY="$HELICONE_API_KEY"
+API_KEY="sk-helicone-2v7akjq-m2xueay-ttt23kq-hx57ubq"
 
 # --- 1. INSTALLATION ---
 echo "Installing Python dependencies..."
