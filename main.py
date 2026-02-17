@@ -1,3 +1,4 @@
+"""Entry point for the Incident Management API."""
 import uvicorn
 from app.api import app
 

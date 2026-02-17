@@ -1,28 +1,47 @@
-You can find the links to all ungraded labs, assignments, and project deliverables below. We will work on Live Labs during our weekly masterclass sessions. 
-The project deliverables will be graded.
+# Incident Management API
 
-**Week 1**
- * Ungraded Live Labs
-    * [Week1 Live - Lab 1] (https://classroom.github.com/a/9Eq2zml1)
-    * [Week1 Live - Lab 2] (https://classroom.github.com/a/6ASQPAOt)
-    * [Week1 Live - Lab 3] (https://classroom.github.com/a/B-mibLfA)
-  
-* Ungraded Assignment
-    * [Week 1 Ungraded Assignment] (https://classroom.github.com/a/Efkf7qCr)
-  
-* Graded Project
-     * [Project Repo] (https://github.com/SarasAI-Institute/10x-engineer-project-repo)
-     * <u>You can use the same link to access all the deliverables of the project.</u>
+A FastAPI application for tracking and managing operational incidents and tasks.
 
-**Week 2**
-* Ungraded Live Labs
-    * [Week2 Live - Lab 1] (https://classroom.github.com/a/8SDdpzp7)
-    * [Week2 Live - Lab 2] (https://classroom.github.com/a/P5j8eyvT)
-    * [Week2 Live - Lab 3] (https://classroom.github.com/a/Q3Qwwgna)
-  
-* Ungraded Assignment
-    * [Week 2 Ungraded Assignment] (https://classroom.github.com/a/YtPFEEDd)
-  
-* Graded Project
-     * [Project Repo] (https://github.com/SarasAI-Institute/10x-engineer-project-repo)
-     * <u>You can use the same link to access all the deliverables of the project.</u>
+## Setup
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
+
+API at http://localhost:8000 | Docs at http://localhost:8000/docs
+
+## Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /incidents | List incidents |
+| POST | /incidents | Create incident |
+| GET | /incidents/{id} | Get incident |
+| PATCH | /incidents/{id}/status | Update status |
+| DELETE | /incidents/{id} | Delete incident |
+| GET | /incidents/{id}/tasks | List tasks |
+| POST | /incidents/{id}/tasks | Create task |
+| GET | /stats | Get statistics |
+| POST | /incidents/bulk | Bulk create (NEW) |
+| GET | /incidents/export | Export to CSV (NEW) |
+| POST | /incidents/{id}/escalate | Escalate incident (NEW) |
+
+## Running Tests
+
+```bash
+pytest tests/ -v
+```
+
+## Recent Changes
+
+A teammate added some new features while you were away:
+- Bulk incident creation
+- CSV export
+- Incident escalation
+- Notification system
+
+These features work but could use some cleanup...
+
