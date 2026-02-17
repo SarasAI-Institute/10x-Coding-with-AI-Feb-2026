@@ -26,3 +26,16 @@ The project deliverables will be graded.
 * Graded Project
      * [Project Repo] (https://github.com/SarasAI-Institute/10x-engineer-project-repo)
      * <u>You can use the same link to access all the deliverables of the project.</u>
+
+**Week 3**
+* Ungraded Live Labs
+    * [Week3 Live - Lab 1] (https://classroom.github.com/a/EzH37fgW)
+    * [Week3 Live - Lab 2] (https://classroom.github.com/a/ZHM6g5j5)
+    * [Week3 Live - Lab 3] (https://classroom.github.com/a/SJ7dtDlS)
+  
+* Ungraded Assignment
+    * [Week 3 Ungraded Assignment] (https://classroom.github.com/a/YZCAefU1)
+  
+* Graded Project
+     * [Project Repo] (https://github.com/SarasAI-Institute/10x-engineer-project-repo)
+     * <u>You can use the same link to access all the deliverables of the project.</u>
