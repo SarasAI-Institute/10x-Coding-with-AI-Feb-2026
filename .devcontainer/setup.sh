@@ -39,7 +39,8 @@ schema: v1
 models:
   - name: OpenAI-via-Helicone-Proxy
     provider: openai
-    model: gpt-4o
+    #model: gpt-4o
+    model: gpt-5.2
     apiBase: https://ai-gateway.helicone.ai/v1
     apiKey: '$API_KEY'
 roles:
